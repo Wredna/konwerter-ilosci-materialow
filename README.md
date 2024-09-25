@@ -1,3 +1,3 @@
-# Przelicznik ilości okleiny na centymetry
+# Konwerter Ilości Materiałów
 
-https://okleina.pages.dev
+https://konwerter.pages.dev
