@@ -1,0 +1,70 @@
+body {
+  align-items: center;
+  background-color: #242424;
+  display: flex;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+  font-size: large;
+  justify-content: center;
+  margin: 12px;
+  user-select: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  gap: 0.5em;
+}
+
+input {
+width: 100px;
+text-align: center;
+-moz-appearance: textfield; /* Firefox */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari, Edge, Opera */
+  margin: 0;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensure the parent div takes full width */
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+#inputs {
+  display: flex;
+  flex-wrap: wrap; /* Allow the divs to wrap */
+  gap: 10px; /* Optional: Add some space between the divs */
+}
+
+#inputs > div {
+  flex: 1 1 0; /* Allow the divs to grow and shrink */
+  min-width: 120px; /* Optional: Set a minimum width for the divs */
+}
+
+#thicknessSelect {
+  width: 100%;
+}
