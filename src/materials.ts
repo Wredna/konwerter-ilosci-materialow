@@ -2,8 +2,8 @@
 // Value jest całkowitą grubością materiału w milimetrach
 
 export const materials = [
-  { value: 0.0987, label: 'Coffee Paper' },
-  { value: 0.0987, label: 'Kraftliner' },
+  { value: 0.15, label: 'Coffee Paper' },
+  { value: 0.14, label: 'Kraftliner' },
   { value: 1.3, label: 'Passe-Partout' },
   { value: 3, label: 'Tektura 3mm' },
   { value: 2.5, label: 'Tektura 2.5mm' },
